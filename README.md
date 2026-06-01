@@ -6,7 +6,7 @@ Pipeline automatizado que extrae, transforma y carga datos de productos tecnoló
 
 ## 🗺️ Arquitectura
 
-![Arquitectura](assets/arquitectura_pipeline.svg)
+![Arquitectura](assets/arquitectura_pipeline.png)
 
 ---
 
