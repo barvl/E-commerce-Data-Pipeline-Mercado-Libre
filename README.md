@@ -1,8 +1,24 @@
 # 🛒 E-commerce Data Pipeline — Mercado Libre
 
-Pipeline automatizado que extrae, transforma y carga datos de productos tecnológicos de Mercado Libre México — Celulares, Tablets, Laptops y Accesorios — y los visualiza en un dashboard web en tiempo real.
+[![Build Status](https://github.com/barvl/mercado-libre-data-pipeline/actions/workflows/pipeline.yml/badge.svg)](https://github.com/barvl/mercado-libre-data-pipeline/actions/workflows/pipeline.yml)
+[![Last Commit](https://img.shields.io/github/last-commit/barvl/mercado-libre-data-pipeline)](https://github.com/barvl/mercado-libre-data-pipeline)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
+[![Repo Size](https://img.shields.io/github/repo-size/barvl/mercado-libre-data-pipeline)](https://github.com/barvl/mercado-libre-data-pipeline)
 
----
+
+Pipeline automatizado que extrae, transforma y carga datos de productos tecnológicos de Mercado Libre México, permitiendo análisis en tiempo real para equipos de e‑commerce y analistas de mercado.
+
+## 🌐 Demo en vivo
+[Ver dashboard →](https://mercado-libre-data-pipeline-mrnvvk3epawz8btrq6xtfa.streamlit.app/)
+
+
+## ✨ Características clave
+- Scraping automatizado con Selenium
+- ETL con PostgreSQL y Supabase
+- Dashboard interactivo en Streamlit
+- Orquestación con Docker Compose
+- CI/CD con GitHub Actions
 
 ## 🗺️ Arquitectura
 
@@ -116,12 +132,6 @@ mercadolibre-pipeline/
 | 3 | ✅ Completa | Dashboard web (Streamlit) |
 | 4 | ✅ Completa | Automatización con GitHub Actions + Task Scheduler |
 | 5 | ✅ Completa | Dockerización completa |
-
----
-
-
-## 🌐 Demo en vivo
-[Ver dashboard →](https://mercado-libre-data-pipeline-mrnvvk3epawz8btrq6xtfa.streamlit.app/)
 
 ---
 
