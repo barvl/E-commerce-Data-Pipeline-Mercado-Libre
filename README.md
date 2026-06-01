@@ -20,6 +20,8 @@ Pipeline automatizado que extrae, transforma y carga datos de productos tecnoló
 - Orquestación con Docker Compose
 - CI/CD con GitHub Actions
 
+---
+
 ## 🗺️ Arquitectura
 
 ![Arquitectura](assets/arquitectura_pipeline.png)
@@ -95,7 +97,7 @@ python ecommerce-pipeline-fase1/scripts/check_db.py
 mercadolibre-pipeline/
 ├── .github/
 │   └── workflows/
-│       └── pipleline.yml           ← GitHub Actions (sincronización automática)
+│       └── pipeline.yml           ← GitHub Actions (sincronización automática)
 │
 ├── ecommerce-pipeline-fase1/
 │   ├── scripts/
@@ -153,10 +155,28 @@ mercadolibre-pipeline/
 
 ## 📈 Métricas del pipeline
 
-- ~960 productos extraídos por ejecución
+- ~960 productos monitoreados por ejecución
 - Actualización automática cada 60 minutos
-- Tiempo promedio ETL: 4.2 minutos
-- +1,000 registros históricos almacenados
+- 4 categorías tecnológicas analizadas
+- Histórico persistente en PostgreSQL
+
+---
+
+## 🚧 Retos técnicos
+
+- Manejo de contenido dinámico con Selenium
+- Sincronización incremental SQLite → PostgreSQL
+- Automatización periódica mediante GitHub Actions
+- Contenerización completa con Docker
+
+---
+
+## 🎯 Casos de uso
+
+- Monitoreo de precios de la competencia.
+- Detección de descuentos relevantes.
+- Seguimiento de tendencias por categoría.
+- Análisis de mercado para equipos e-commerce.
 
 ---
 
